@@ -11,5 +11,5 @@ data$Global_active_power <- as.numeric(data$Global_active_power)
 plot(data$fullDate, data$Global_active_power, type="n", xlab="", ylab="Global Active Power (kilowatts)")
 lines(data$fullDate, data$Global_active_power)
 
-dev.copy(png, file="Plot2.png", width=480, height=480)
+dev.copy(png, file="plot2.png", width=480, height=480)
 dev.off()
